@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyGPS</string>
+    <string name="instruction">1. Select a GPS Log File\n2. Decoded file will be saved with _decoded suffix in the same folder</string>
+    <string name="button">Select Log File</string>
 </resources>

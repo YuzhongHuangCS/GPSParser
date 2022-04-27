@@ -1,0 +1,4 @@
+<resources>
+    <string name="instruction">1. 选择GPS Log文件\n2. 解码后的文件将以后缀_decoded保存在同目录下</string>
+    <string name="button">选择Log文件</string>
+</resources>

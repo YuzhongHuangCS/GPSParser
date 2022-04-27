@@ -62,15 +62,15 @@ public class MainActivity extends AppCompatActivity {
                     }
                     pw.close();
                     f.close();
+                    Toast.makeText(getApplicationContext(), "Save: " + outPath, Toast.LENGTH_LONG).show();
                 } catch (IOException e) {
                     e.printStackTrace();
                     Toast.makeText(getApplicationContext(), "Can't Write Decoded File", Toast.LENGTH_LONG).show();
                 }
-                Toast.makeText(getApplicationContext(), "Save: " + outPath, Toast.LENGTH_LONG).show();
             } else {
-                Toast.makeText(getApplicationContext(), "InValid File Selected", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Invalid File Selected", Toast.LENGTH_LONG).show();
             }
-            }
+        }
     }
 
     public static String getPath(Context context, Uri uri) {
